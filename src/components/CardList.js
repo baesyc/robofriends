@@ -1,0 +1,15 @@
+import React from 'react';
+import Card from './Card';
+
+const CardList = ({ robots }) => {
+
+  return (
+    <div className="card-list">
+      {robots.map(robot => {
+        return <Card key={robot.id} {...robot} />
+      })}
+    </div>
+  );
+}
+
+export default CardList;

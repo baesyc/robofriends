@@ -1,13 +1,47 @@
+
+@font-face {
+  font-family: 'SEGA LOGO FONT';
+  font-style: normal;
+  font-weight: normal;
+  src: local('SEGA LOGO FONT'), url('SEGA.woff') format('woff');
+  }
+
 body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  background: linear-gradient(to left, rgba(7,27,82,1) 0%, rgba(0,128,128,1) 100%);
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+
+.title {
+  font-family: 'Sega Logo Font', sans-serif;
+  font-size: 4rem;
+  margin: 1rem auto;
+}
+
+.search-bar {
+  appearance: none;
+  border: none;
+  outline: none;
+  background: none;
+
+  border: 3px solid #008080;
+  border-radius: 5px;
+
+  color: #fff;
+  padding: .5rem;
+  font-size: 1.5rem;
+
+  margin-bottom: 1rem;
+}
+
+.card {
+  border-radius: 5px;
+  box-shadow: 6px 6px rgba(250,250,250,.5)
+}
+
+.card .email {
+  font-style: italic;
+}
+
+.card .name {
+  font-size: 1.2rem;
 }
